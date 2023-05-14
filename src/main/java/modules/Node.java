@@ -22,19 +22,20 @@ public class Node {
     public void setNext(Node next) {
         nextElement = next;
     }
-    public boolean hasPrev() {
-        return !isNull(prevElement);
-    }
+
     public Node getNext() {
         return nextElement;
-    }
-
-    public int getValue() {
-        return value;
     }
 
     public boolean hasNext() {
         return !isNull(nextElement);
     }
 
+    public boolean hasPrev() {
+        return !isNull(prevElement);
+    }
+
+    public int getValue() {
+        return value;
+    }
 }

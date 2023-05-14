@@ -66,6 +66,10 @@ public class OneWayLinkedList {
     public Node getLast() {
         return lastElement;
     }
+    public Node getFirst() {
+        return firstElement;
+    }
+
     public boolean hasNext() {
         return currentElement.hasNext();
     }
