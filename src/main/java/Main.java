@@ -12,7 +12,7 @@ public class Main {
             double randomValue =  Math.random()*1000;
             dataArray[i] = (int) randomValue;
         }
-        
+
         System.out.println(Arrays.toString(dataArray));
         System.out.println(Arrays.toString(SelectionSort.sort(dataArray)));
     }
